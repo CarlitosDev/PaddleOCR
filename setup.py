@@ -18,7 +18,6 @@ from paddleocr import VERSION
 
 with open('requirements.txt', encoding="utf-8-sig") as f:
     requirements = f.readlines()
-    requirements.append('tqdm')
 
 
 def readme():
@@ -48,10 +47,5 @@ setup(
         'Intended Audience :: Developers', 'Operating System :: OS Independent',
         'Natural Language :: Chinese (Simplified)',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.2',
-        'Programming Language :: Python :: 3.3',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7', 'Topic :: Utilities'
     ], )
